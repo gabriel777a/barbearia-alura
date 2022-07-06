@@ -39,8 +39,17 @@ h2 {
 text-align:center;
 
 }
+ul {
+
+	display: inline-block;
+}
 
 .imagembeneficios {
 hidth:50%;
 
+}
+
+.imagembeneficios {
+
+	width: 50%;
 }
