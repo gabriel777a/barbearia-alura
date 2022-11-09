@@ -232,6 +232,8 @@ td, th {
 	clear: left;
 }
 
+
+
 .principal{
 	padding: 3em 0;
 	background: #FEFEFE;
@@ -259,12 +261,12 @@ td, th {
 
 .mapa{
 	padding: 3em 0;
-	width: 940px;
-	margin: 0 auto;
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo {
-	
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p {
@@ -292,8 +294,13 @@ td, th {
 	line-height: 1.5;
 }
 
+
 .itens:first-child {
 	font-weight: bold;
+}
+
+.itens:before {
+	content: "★";
 }
 
 .imagem-beneficios {
